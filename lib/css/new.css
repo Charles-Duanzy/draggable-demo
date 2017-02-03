@@ -1,0 +1,334 @@
+.left-gradient{
+    background: -webkit-linear-gradient(180deg, #eee 10%, #8a8a8a 15%, #000000 100%);
+    background: -moz-linear-gradient(180deg, #eee 10%, #8a8a8a 15%, #000000 100%);
+    background: -o-linear-gradient(180deg, #eee 10%, #8a8a8a 15%, #000000 100%);
+    background: -ms-linear-gradient(180deg, #eee 10%, #8a8a8a 15%, #000000 100%);
+    background: linear-gradient(-90deg, #eee 10%, #8a8a8a 15%, #000000 100%);
+    width: 53px;
+    /*height: 565px;*/
+    height: 100%;
+    position: fixed;
+    left: 0;
+    padding: 15px 5px;
+}
+
+.left-gradient > ul{
+    padding-right: 5px;
+}
+.left-gradient > ul li{
+    margin-bottom: 20px;
+
+    border-radius: 4px;
+    padding: 3px;
+}
+
+.left-gradient > ul li.active{
+    background-color: #009587;
+}
+
+.left-gradient > ul li:hover{
+    background-color: #8a8a8a;
+}
+
+.left-gradient > ul li.active:hover{
+    background-color: #009587;
+}
+.left-gradient > ul li i{
+    font-size:25pt;
+    color: #fff;
+}
+
+.left-gradient > ul li span.glyphicon-home{
+    color: #fff;
+	font-size: 18pt;
+	top: 2px;
+	left: 2px;
+}
+
+.left-gradient .mdi-action-exit-to-app{
+    transform:rotate(180deg)
+}
+@media (max-width: 1599px) {
+	.tabWidth{
+		width:170px !important;
+	}
+}
+@media (min-width: 1600px) {
+    .container {
+        width:95%;
+        /*margin-left:4%;*/
+    }
+
+     .left-gradient > ul{
+        padding-left: 5px;
+        padding-right: 12px;
+    }
+    
+    .left-gradient{
+        width: 80px;
+    }
+    
+    .left-gradient > ul li{
+        margin-bottom: 20px;
+        border-radius: 4px;
+        padding: 3px 10px;
+    }
+    
+    .left-gradient > ul li i{
+        font-size:28pt;
+        color: #fff;
+    }
+    
+    .left-gradient > ul li span.glyphicon-home{
+        color: #fff;
+        font-size: 24pt;
+        top: 2px;
+        left: 2px;
+    }
+    .tabWidth{
+		width:240px !important;
+	}	
+
+}
+
+#myTabContent1,#myTabContent2{
+    /*border-radius: 0px 10px 10px 0px;*/
+    height: 100%;
+    /*height: 578px;*/
+}
+
+#myTabContent1 .tab-pane,
+#myTabContent2 .tab-pane{
+    height: 100%;
+    /*border-top-right-radius: 10px;*/
+    /*border-bottom-right-radius: 10px;*/
+}
+
+#myTabContent1 table{
+   text-align:center; margin:0px;
+}
+
+.myTabContent1,#myTabContent2{
+    /*border-radius: 0px 10px 10px 0px;*/
+    height: 100%;
+    /*height: 578px;*/
+}
+
+.myTabContent3{
+    /*border-radius: 0px 10px 10px 0px;*/
+    height: 92%;
+    /*height: 578px;*/
+}
+
+.myTabContent3 .tab-pane,
+.myTabContent1 .tab-pane,
+.myTabContent2 .tab-pane{
+    height: 100%;
+    /*border-top-right-radius: 10px;*/
+    /*border-bottom-right-radius: 10px;*/
+}
+.myTabContent3 table,
+.myTabContent1 table{
+   text-align:center; margin:0px;
+}
+.myTabContent3 .tab-table1{
+    height:94%;
+    overflow-y:auto;
+    clear: both
+}
+
+.tab-table-nav{
+    border:1px solid #ddd;
+    padding:1px 0px;
+    background-color:#009587;
+    height:40px;
+    border-top-right-radius: 10px;
+}
+
+.tab-table-nav > h4{
+    margin:10px 0px 0px 0px;color:#000;display: inline-block;
+}
+
+.tab-table-nav > h4 ~ ul{
+    display: inline;margin: 0px 10px 0px 0px
+}
+
+.tab-table-nav > h4 ~ ul > li a {
+    margin:7px 1px 1px 5px;
+
+}
+.tab-table{
+    height:80%;
+    /*background-color: green;*/
+    overflow-y:auto;
+    clear: both
+}
+
+.fixedHeader tr{
+    /*position: relative;display: block;*/
+}
+
+.checkbox{
+    margin: 0px 10px;
+}
+
+.div-radius{
+    border-radius: 0px 10px 10px 0px ;
+}
+
+
+.group-select{
+    display: none;
+    margin-top: 12px;
+    margin-left: -14px;
+    margin-bottom: -4px;
+    padding:8px 0px 8px  15px;
+    color: #555;
+    background-color: #fff;
+    border: 1px solid #ddd;
+}
+
+.group-select > ul > li{
+    margin-left: -15px;
+    padding-left: 1px;
+    font-size: 14px;
+	text-align:center;
+}
+.group-select > ul{
+    margin-bottom: 0px;
+}
+.group-select > ul > li:hover{
+    background-color: #00AA9A;
+}
+
+
+.tab-content .breadcrumb{
+    margin-bottom:0px;
+    background-color:#009587;
+    border-radius:0px 10px 0px 0px;
+}
+.tab-content .breadcrumb a{
+    color: #333;
+    font-weight: bold;
+}
+
+.tab-content .breadcrumb li.active a{
+    color: #fff;
+}
+
+a{
+    outline:none;
+}
+a:active {star:expression(this.onFocus=this.blur());}
+a:focus{
+    outline: 0;
+}
+
+table td .checkbox,
+table th .checkbox{
+padding-left:0px;
+}
+
+table td{
+	 word-wrap:break-word;
+    word-break: break-all;
+}
+
+ [ng\:cloak], [ng-cloak], .ng-cloak {
+            display: none !important;
+        }
+
+.modal  .modal-content > .modal-header{
+	background-color: #009688;
+    padding: 8px 15px 8px 8px ;
+}
+
+.table-count-row{
+	padding: 1px;
+	border-bottom:1px solid #ddd;
+}
+
+/* .table-count-row .mdi-editor-functions{
+	font-size:10pt;
+	margin:10px 0px 0px 10px;
+} */
+
+.table-count-row a.btn{
+	margin:0px 20px 0px 10px;
+	padding:0px 10px 0px;
+	float:right;
+	
+}
+.table-count-row a.btn i,
+.table-count-row a.btn span
+{
+
+	font-size:10pt;
+}
+
+.table-count-row span
+{
+
+	font-size:14pt;
+}
+
+.modal-content{
+	margin-top:100px;
+}
+
+.col-lg-1 .tooltip{
+    /*min-width: 150px;*/
+   width: 200px;
+    right: 0px;
+}
+
+.td-clicked{
+	background-color:#009587;
+}
+
+.modal-dialog{
+	margin-bottom:0px;
+}
+
+
+.text-ellipsis{
+    display: inline-block;
+    text-overflow: ellipsis;
+    width: 58px;
+    overflow: hidden;
+    white-space: nowrap;
+}
+
+@media (min-width: 1200px) {
+  .container {
+    /* width: 1170px; */
+	width:95%;
+	margin-left:4%;
+  }
+}
+
+.modal-footer > button[disabled]{
+    cursor: not-allowed;
+}
+
+i{
+	cursor:pointer;
+}
+.errCont{
+ margin:0px;
+ color:red;
+ overflow:hidden;
+ word-wrap: break-word;
+ word-break: break-all;
+ white-space: nowrap;
+ -o-text-overflow: ellipsis;
+ text-overflow: ellipsis;	
+}
+.has-feedback .form-control-feedup {
+  right: auto !important;
+  left: 0 !important;
+  
+}
+.sxWidth{
+	width:13%;
+}
